@@ -489,7 +489,7 @@ def build_arguments_parser(parser: argparse.ArgumentParser = None):
         "--num_workers",
         type=int,
         required=False,
-        default=None,
+        default=-1,
         help="Num workers for data loader (default: -1 => all cpus available)",
     )
     group.add_argument(
