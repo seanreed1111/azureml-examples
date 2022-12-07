@@ -559,7 +559,7 @@ def build_arguments_parser(parser: argparse.ArgumentParser = None):
         "--learning_rate",
         type=float,
         required=False,
-        default=0.01,
+        default=0.001,
         help="Learning rate of optimizer",
     )
     group.add_argument(
